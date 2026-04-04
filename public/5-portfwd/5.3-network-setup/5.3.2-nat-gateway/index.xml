@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Configure Internet &amp; NAT Gateway on AWS System Manager</title>
+    <title>Create Security Group on AWS System Manager</title>
     <link>http://localhost:1313/AWS_Intern-Report/5-portfwd/5.3-network-setup/5.3.2-nat-gateway/</link>
-    <description>Recent content in Configure Internet &amp; NAT Gateway on AWS System Manager</description>
+    <description>Recent content in Create Security Group on AWS System Manager</description>
     <generator>Hugo</generator>
     <language>en</language>
     <atom:link href="http://localhost:1313/AWS_Intern-Report/5-portfwd/5.3-network-setup/5.3.2-nat-gateway/index.xml" rel="self" type="application/rss+xml" />
