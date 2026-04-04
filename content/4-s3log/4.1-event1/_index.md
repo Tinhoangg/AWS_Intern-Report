@@ -18,7 +18,7 @@ Get the latest updates from AWS re:Invent 2025 right at our local shores! The Ho
 
 Builders, business leaders, and technical professionals gathered for a full day of hands-on workshops, technical sessions, and networking. The event equipped the community with the knowledge and connections to accelerate projects, explore strategic AI implementations, and drive innovation with AWS.
 
-![Networking Session](/AWS_Intern-Report/images/z7672271327499_b4b87423defc5349a8fb40e04a1d16d5.jpg)
+![Networking Session](/AWS_Intern-Report/images/image.jpg)
 
 ---
 
@@ -35,7 +35,6 @@ Kicked off the day with inspiring keynotes covering AWS's vision for the future 
 #### 10:15 AM - 11:00 AM | Get Started with Vector Database on S3
 Hosted by the amazing **Prapti Gupta**. Her presentation style was exceptionally engaging—some might even say guests left more elated than visitors to Santa's Workshop or the Fountain of Youth! A truly memorable session on leveraging S3 for vector storage.
 
-![Networking Session](/AWS_Intern-Report/images/z7672273786054_ede1dcb746ab243e152415d8345bfcb8.jpg)
 
 #### 11:00 AM - 11:45 AM | Natural Query Language in OpenSearch
 Explored how natural language interfaces are lowering the barrier to querying large datasets, making data exploration more intuitive.
