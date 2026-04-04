@@ -18,7 +18,6 @@ Get the latest updates from AWS re:Invent 2025 right at our local shores! The Ho
 
 Builders, business leaders, and technical professionals gathered for a full day of hands-on workshops, technical sessions, and networking. The event equipped the community with the knowledge and connections to accelerate projects, explore strategic AI implementations, and drive innovation with AWS.
 
-![Networking Session](/AWS_Intern-Report/images/image.jpg)
 
 ---
 
@@ -45,7 +44,7 @@ Explored how natural language interfaces are lowering the barrier to querying la
 A great time to connect with peers navigating similar digital transformation journeys and share insights from the morning sessions.
 
 
-![Have Lunch Session](/AWS_Intern-Report/images/z7672273779375_e66ef123f715852db0b4060faef364a4.jpg)
+![Networking Session](/AWS_Intern-Report/images/image.jpg)
 
 #### 1:00 PM - 1:45 PM | Enhance GenAI Applications by Leveraging New Version of Nova & Bedrock
 Covered the powerful new capabilities introduced in Amazon Nova models and Bedrock APIs, enabling developers to build production-grade Generative AI applications faster.
