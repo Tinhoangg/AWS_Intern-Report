@@ -43,7 +43,6 @@ Explored how natural language interfaces are lowering the barrier to querying la
 #### 11:45 AM - 1:00 PM | Lunch & Networking
 A great time to connect with peers navigating similar digital transformation journeys and share insights from the morning sessions.
 
-
 ![Networking Session](/AWS_Intern-Report/images/image.jpg)
 
 #### 1:00 PM - 1:45 PM | Enhance GenAI Applications by Leveraging New Version of Nova & Bedrock
