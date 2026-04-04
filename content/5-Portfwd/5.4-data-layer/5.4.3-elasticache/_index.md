@@ -7,15 +7,15 @@ pre: " <b> 4.4.3. </b> "
 1. **Upload data (PDF)** to the `rag-data` bucket.
 2. Open the **Amazon Bedrock console**.
 
-![Networking Session](/AWS_Intern-Report/images/Picture1.jpg)
+![Networking Session](/AWS_Intern-Report/images/picture1.jpg)
 
 3. **Choose Knowledge Base:** Click *Create Knowledge Base*.
 
-![Networking Session](/AWS_Intern-Report/images/Picture2.jpg)
+![Networking Session](/AWS_Intern-Report/images/picture2.jpg)
 
 4. **General Configuration:**
 
-![Networking Session](/AWS_Intern-Report/images/Picture3.jpg)
+![Networking Session](/AWS_Intern-Report/images/picture3.jpg)
 
    - **Data source name:** Enter `RAG-data`.
    - **S3 URL:** Choose the file uploaded to the bucket in Step 1.
@@ -23,7 +23,7 @@ pre: " <b> 4.4.3. </b> "
 6. **Chunking strategy:** Choose *Semantic chunking*.
 7. **Choose embedding model:** Select your preferred model.
 
-![Networking Session](/AWS_Intern-Report/images/Picture4.jpg)
+![Networking Session](/AWS_Intern-Report/images/picture4.jpg)
 
 8. **Vector store:**
    - Choose *Quick create a new vector store*.
