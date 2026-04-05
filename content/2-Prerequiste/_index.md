@@ -103,7 +103,7 @@ To solve the growing online scam issues and the lack of a reliable verification 
 **7. Security & Monitoring Layer**
 * **Security & Access:** Implement Authentication via AWS Cognito (SSO, JWT) and manage overall security using AWS WAF, IAM, ACM (SSL), and Route 53 (DNS).
 * **Operations:** System monitoring is handled by Amazon CloudWatch (logs, metrics) and SNS (alerts), while credentials are encrypted and managed by AWS Secrets Manager.
-![AnTiScaQ AWS Architecture Diagram](aws_architecture.drawio.png)
+![AnTiScaQ AWS Architecture Diagram](/AWS_Intern_Report/images/aws_architecture.drawio.png)
 ## 4. Technical Deployment Roadmap
 
 **Step 1: Infrastructure & Platform Setup**
