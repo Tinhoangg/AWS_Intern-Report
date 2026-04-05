@@ -20,7 +20,7 @@ chapter : false
 <p><strong>Thời Gian Thực Tập:</strong> Từ 05/01/2026 đến 18/04/2026</p>  
 </div>
 
-![ConnectPrivate](aws_img.jpg?width=20pc) 
+![ConnectPrivate](aws_img.jpg?width=20pc)
 
 ### Nội Dung Báo Cáo
  1. [Workblog](1-introduce/)
