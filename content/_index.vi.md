@@ -14,7 +14,7 @@ chapter : false
 <p><strong>Email:</strong> hoangtin050321@gmail.com</p>
 <p><strong>Trường:</strong> Đại Học FPT TP.HCM</p>
 <p><strong>Ngành:</strong> Trí Tuệ Nhân Tạo</p>
-<p><strong>Lớp:</strong> SE192426</p>
+<p><strong>lớp:</strong> SE192426</p>
 <p><strong>Công Ty Thực Tập:</strong> Công ty TNHH Amazon Web Services Vietnam</p>
 <p><strong>Vị Trí Thực Tập:</strong> FCJ Cloud Intern</p>
 <p><strong>Thời Gian Thực Tập:</strong> Từ 05/01/2026 đến 18/04/2026</p>  
