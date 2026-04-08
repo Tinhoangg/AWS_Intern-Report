@@ -161,6 +161,18 @@
                 href="http://localhost:1313/AWS_Intern-Report/vi/2-prerequiste/"
                 />
   </url><url>
+    <loc>http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.5-deploy-app/5.5.2-ecr/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/AWS_Intern-Report/5-portfwd/5.5-deploy-app/5.5.2-ecr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.5-deploy-app/5.5.2-ecr/"
+                />
+  </url><url>
     <loc>http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.2-prerequisites/</loc>
     <xhtml:link
                 rel="alternate"
@@ -171,18 +183,6 @@
                 rel="alternate"
                 hreflang="vi"
                 href="http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.2-prerequisites/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.5-deploy-app/5.5.2-beanstalk/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/AWS_Intern-Report/5-portfwd/5.5-deploy-app/5.5.2-beanstalk/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.5-deploy-app/5.5.2-beanstalk/"
                 />
   </url><url>
     <loc>http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.4-data-layer/5.4.2-rds/</loc>
@@ -270,16 +270,16 @@
                 href="http://localhost:1313/AWS_Intern-Report/vi/4-s3log/"
                 />
   </url><url>
-    <loc>http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.5-deploy-app/5.5.3-env-vars/</loc>
+    <loc>http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.5-deploy-app/5.5.3-beanstalk/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/AWS_Intern-Report/5-portfwd/5.5-deploy-app/5.5.3-env-vars/"
+                href="http://localhost:1313/AWS_Intern-Report/5-portfwd/5.5-deploy-app/5.5.3-beanstalk/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.5-deploy-app/5.5.3-env-vars/"
+                href="http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.5-deploy-app/5.5.3-beanstalk/"
                 />
   </url><url>
     <loc>http://localhost:1313/AWS_Intern-Report/vi/4-s3log/4.3-event3/</loc>
@@ -379,6 +379,18 @@
                 href="http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.4-data-layer/"
                 />
   </url><url>
+    <loc>http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.5-deploy-app/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/AWS_Intern-Report/5-portfwd/5.5-deploy-app/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.5-deploy-app/"
+                />
+  </url><url>
     <loc>http://localhost:1313/AWS_Intern-Report/vi/1-introduce/1.4-week4/</loc>
     <xhtml:link
                 rel="alternate"
@@ -414,18 +426,6 @@
                 rel="alternate"
                 hreflang="vi"
                 href="http://localhost:1313/AWS_Intern-Report/vi/4-s3log/4.5-event5/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.5-deploy-app/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/AWS_Intern-Report/5-portfwd/5.5-deploy-app/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.5-deploy-app/"
                 />
   </url><url>
     <loc>http://localhost:1313/AWS_Intern-Report/vi/1-introduce/1.5-week5/</loc>

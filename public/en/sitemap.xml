@@ -161,6 +161,18 @@
                 href="http://localhost:1313/AWS_Intern-Report/2-prerequiste/"
                 />
   </url><url>
+    <loc>http://localhost:1313/AWS_Intern-Report/5-portfwd/5.5-deploy-app/5.5.2-ecr/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.5-deploy-app/5.5.2-ecr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/AWS_Intern-Report/5-portfwd/5.5-deploy-app/5.5.2-ecr/"
+                />
+  </url><url>
     <loc>http://localhost:1313/AWS_Intern-Report/5-portfwd/5.3-network-setup/5.3.2-nat-gateway/</loc>
     <xhtml:link
                 rel="alternate"
@@ -195,18 +207,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/AWS_Intern-Report/5-portfwd/5.4-data-layer/5.4.2-rds/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/AWS_Intern-Report/5-portfwd/5.5-deploy-app/5.5.2-beanstalk/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.5-deploy-app/5.5.2-beanstalk/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/AWS_Intern-Report/5-portfwd/5.5-deploy-app/5.5.2-beanstalk/"
                 />
   </url><url>
     <loc>http://localhost:1313/AWS_Intern-Report/5-portfwd/5.2-prerequisites/</loc>
@@ -282,18 +282,6 @@
                 href="http://localhost:1313/AWS_Intern-Report/5-portfwd/5.4-data-layer/5.4.3-elasticache/"
                 />
   </url><url>
-    <loc>http://localhost:1313/AWS_Intern-Report/5-portfwd/5.5-deploy-app/5.5.3-env-vars/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.5-deploy-app/5.5.3-env-vars/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/AWS_Intern-Report/5-portfwd/5.5-deploy-app/5.5.3-env-vars/"
-                />
-  </url><url>
     <loc>http://localhost:1313/AWS_Intern-Report/5-portfwd/5.3-network-setup/5.3.3-route-table/</loc>
     <xhtml:link
                 rel="alternate"
@@ -316,6 +304,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/AWS_Intern-Report/4-s3log/4.3-event3/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/AWS_Intern-Report/5-portfwd/5.5-deploy-app/5.5.3-beanstalk/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.5-deploy-app/5.5.3-beanstalk/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/AWS_Intern-Report/5-portfwd/5.5-deploy-app/5.5.3-beanstalk/"
                 />
   </url><url>
     <loc>http://localhost:1313/AWS_Intern-Report/5-portfwd/5.3-network-setup/</loc>
@@ -353,6 +353,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/AWS_Intern-Report/5-portfwd/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/AWS_Intern-Report/5-portfwd/5.5-deploy-app/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.5-deploy-app/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/AWS_Intern-Report/5-portfwd/5.5-deploy-app/"
                 />
   </url><url>
     <loc>http://localhost:1313/AWS_Intern-Report/5-portfwd/5.4-data-layer/</loc>
@@ -402,18 +414,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/AWS_Intern-Report/6-cleanup/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/AWS_Intern-Report/5-portfwd/5.5-deploy-app/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.5-deploy-app/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/AWS_Intern-Report/5-portfwd/5.5-deploy-app/"
                 />
   </url><url>
     <loc>http://localhost:1313/AWS_Intern-Report/4-s3log/4.5-event5/</loc>
