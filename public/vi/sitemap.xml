@@ -100,18 +100,6 @@
                 href="http://localhost:1313/AWS_Intern-Report/vi/4-s3log/4.1-event1/"
                 />
   </url><url>
-    <loc>http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.6-cicd/5.6.1-codebuild/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/AWS_Intern-Report/5-portfwd/5.6-cicd/5.6.1-codebuild/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.6-cicd/5.6.1-codebuild/"
-                />
-  </url><url>
     <loc>http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.3-network-setup/5.3.1-vpc-subnets/</loc>
     <xhtml:link
                 rel="alternate"
@@ -219,30 +207,6 @@
                 rel="alternate"
                 hreflang="vi"
                 href="http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.3-network-setup/5.3.2-nat-gateway/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.6-cicd/5.6.2-codepipeline/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/AWS_Intern-Report/5-portfwd/5.6-cicd/5.6.2-codepipeline/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.6-cicd/5.6.2-codepipeline/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.7-security/5.7.2-waf/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/AWS_Intern-Report/5-portfwd/5.7-security/5.7.2-waf/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.7-security/5.7.2-waf/"
                 />
   </url><url>
     <loc>http://localhost:1313/AWS_Intern-Report/vi/1-introduce/1.2-week2/</loc>
@@ -379,18 +343,6 @@
                 href="http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.4-data-layer/"
                 />
   </url><url>
-    <loc>http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.5-deploy-app/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/AWS_Intern-Report/5-portfwd/5.5-deploy-app/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.5-deploy-app/"
-                />
-  </url><url>
     <loc>http://localhost:1313/AWS_Intern-Report/vi/1-introduce/1.4-week4/</loc>
     <xhtml:link
                 rel="alternate"
@@ -428,6 +380,18 @@
                 href="http://localhost:1313/AWS_Intern-Report/vi/4-s3log/4.5-event5/"
                 />
   </url><url>
+    <loc>http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.5-deploy-app/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/AWS_Intern-Report/5-portfwd/5.5-deploy-app/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.5-deploy-app/"
+                />
+  </url><url>
     <loc>http://localhost:1313/AWS_Intern-Report/vi/1-introduce/1.5-week5/</loc>
     <xhtml:link
                 rel="alternate"
@@ -463,18 +427,6 @@
                 rel="alternate"
                 hreflang="vi"
                 href="http://localhost:1313/AWS_Intern-Report/vi/1-introduce/1.6-week6/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.6-cicd/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/AWS_Intern-Report/5-portfwd/5.6-cicd/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.6-cicd/"
                 />
   </url><url>
     <loc>http://localhost:1313/AWS_Intern-Report/vi/5-portfwd/5.7-security/</loc>
