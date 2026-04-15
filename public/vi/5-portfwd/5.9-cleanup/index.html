@@ -12,21 +12,21 @@
     <title>Dọn dẹp tài nguyên :: AWS System Manager</title>
 
     
-    <link href="/AWS_Intern-Report/css/nucleus.css?1775788742" rel="stylesheet">
-    <link href="/AWS_Intern-Report/css/fontawesome-all.min.css?1775788742" rel="stylesheet">
-    <link href="/AWS_Intern-Report/css/hybrid.css?1775788742" rel="stylesheet">
-    <link href="/AWS_Intern-Report/css/featherlight.min.css?1775788742" rel="stylesheet">
-    <link href="/AWS_Intern-Report/css/perfect-scrollbar.min.css?1775788742" rel="stylesheet">
-    <link href="/AWS_Intern-Report/css/auto-complete.css?1775788742" rel="stylesheet">
-    <link href="/AWS_Intern-Report/css/atom-one-dark-reasonable.css?1775788742" rel="stylesheet">
-    <link href="/AWS_Intern-Report/css/theme.css?1775788742" rel="stylesheet">
-    <link href="/AWS_Intern-Report/css/hugo-theme.css?1775788742" rel="stylesheet">
+    <link href="/AWS_Intern-Report/css/nucleus.css?1776218979" rel="stylesheet">
+    <link href="/AWS_Intern-Report/css/fontawesome-all.min.css?1776218979" rel="stylesheet">
+    <link href="/AWS_Intern-Report/css/hybrid.css?1776218979" rel="stylesheet">
+    <link href="/AWS_Intern-Report/css/featherlight.min.css?1776218979" rel="stylesheet">
+    <link href="/AWS_Intern-Report/css/perfect-scrollbar.min.css?1776218979" rel="stylesheet">
+    <link href="/AWS_Intern-Report/css/auto-complete.css?1776218979" rel="stylesheet">
+    <link href="/AWS_Intern-Report/css/atom-one-dark-reasonable.css?1776218979" rel="stylesheet">
+    <link href="/AWS_Intern-Report/css/theme.css?1776218979" rel="stylesheet">
+    <link href="/AWS_Intern-Report/css/hugo-theme.css?1776218979" rel="stylesheet">
     
-    <link href="/AWS_Intern-Report/css/theme-workshop.css?1775788742" rel="stylesheet">
+    <link href="/AWS_Intern-Report/css/theme-workshop.css?1776218979" rel="stylesheet">
     
     
 
-    <script src="/AWS_Intern-Report/js/jquery-3.3.1.min.js?1775788742"></script>
+    <script src="/AWS_Intern-Report/js/jquery-3.3.1.min.js?1776218979"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -138,14 +138,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/AWS_Intern-Report/js/lunr.min.js?1775788742"></script>
-<script type="text/javascript" src="/AWS_Intern-Report/js/auto-complete.js?1775788742"></script>
+<script type="text/javascript" src="/AWS_Intern-Report/js/lunr.min.js?1776218979"></script>
+<script type="text/javascript" src="/AWS_Intern-Report/js/auto-complete.js?1776218979"></script>
 <script type="text/javascript">
     
         var baseurl = "http:\/\/localhost:1313\/AWS_Intern-Report\/\/vi";
     
 </script>
-<script type="text/javascript" src="/AWS_Intern-Report/js/search.js?1775788742"></script>
+<script type="text/javascript" src="/AWS_Intern-Report/js/search.js?1776218979"></script>
 
     
   </div>
@@ -1542,7 +1542,7 @@
     <br>
     <br>
         <b> Last Updated </b> <br>
-        <i><font color="orange">10-04-2026</font></i>
+        <i><font color="orange">15-04-2026</font></i>
     </left>
     <left>
         <br>
@@ -1670,6 +1670,26 @@
 
 
 	<h1 id="dọn-dẹp-tài-nguyên">Dọn dẹp tài nguyên</h1>
+<p>Sau khi hoàn tất việc triển khai và kiểm thử hệ thống <strong>AnTiScaQ</strong> (hoặc hoàn thành các bài thực hành trong Workshop), bước quản trị cuối cùng và cực kỳ quan trọng là <strong>dọn dẹp tài nguyên (Resource Cleanup)</strong>. Việc vô tình để các dịch vụ cloud tiếp tục chạy ngầm khi không còn sử dụng sẽ dẫn đến chi phí phát sinh ngoài ý muốn trên AWS.</p>
+<p>Trong phần này, chúng ta sẽ thực hiện việc <strong>gỡ bỏ an toàn và dọn dẹp toàn bộ hệ sinh thái hạ tầng AWS</strong> đã cấp phát cho dự án, bao gồm:</p>
+<ul>
+<li>
+<p><strong>Tính toán &amp; Ứng dụng (Elastic Beanstalk, ECR):</strong><br>
+Chấm dứt hoàn toàn môi trường backend và xóa các repository Docker image của ứng dụng.</p>
+</li>
+<li>
+<p><strong>Lưu trữ &amp; Dữ liệu (RDS, S3):</strong><br>
+Xóa vĩnh viễn cơ sở dữ liệu MySQL (không tạo bản sao lưu cuối) và dọn dẹp các bucket lưu trữ tài nguyên frontend/static.</p>
+</li>
+<li>
+<p><strong>Mạng &amp; Phân phối (VPC, CloudFront):</strong><br>
+Vô hiệu hóa mạng phân phối nội dung toàn cầu và loại bỏ hạ tầng mạng ảo nội bộ của ứng dụng.</p>
+</li>
+<li>
+<p><strong>Giám sát (CloudWatch):</strong><br>
+Dọn dẹp và xóa các luồng cảnh báo tự động đã được thiết lập.</p>
+</li>
+</ul>
 
 
 
@@ -2444,19 +2464,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/AWS_Intern-Report/js/clipboard.min.js?1775788742"></script>
-    <script src="/AWS_Intern-Report/js/perfect-scrollbar.min.js?1775788742"></script>
-    <script src="/AWS_Intern-Report/js/perfect-scrollbar.jquery.min.js?1775788742"></script>
-    <script src="/AWS_Intern-Report/js/jquery.sticky.js?1775788742"></script>
-    <script src="/AWS_Intern-Report/js/featherlight.min.js?1775788742"></script>
-    <script src="/AWS_Intern-Report/js/highlight.pack.js?1775788742"></script>
+    <script src="/AWS_Intern-Report/js/clipboard.min.js?1776218979"></script>
+    <script src="/AWS_Intern-Report/js/perfect-scrollbar.min.js?1776218979"></script>
+    <script src="/AWS_Intern-Report/js/perfect-scrollbar.jquery.min.js?1776218979"></script>
+    <script src="/AWS_Intern-Report/js/jquery.sticky.js?1776218979"></script>
+    <script src="/AWS_Intern-Report/js/featherlight.min.js?1776218979"></script>
+    <script src="/AWS_Intern-Report/js/highlight.pack.js?1776218979"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/AWS_Intern-Report/js/modernizr.custom-3.6.0.js?1775788742"></script>
-    <script src="/AWS_Intern-Report/js/learn.js?1775788742"></script>
-    <script src="/AWS_Intern-Report/js/hugo-learn.js?1775788742"></script>
+    <script src="/AWS_Intern-Report/js/modernizr.custom-3.6.0.js?1776218979"></script>
+    <script src="/AWS_Intern-Report/js/learn.js?1776218979"></script>
+    <script src="/AWS_Intern-Report/js/hugo-learn.js?1776218979"></script>
 
-    <link href="/AWS_Intern-Report/mermaid/mermaid.css?1775788742" rel="stylesheet" />
-    <script src="/AWS_Intern-Report/mermaid/mermaid.js?1775788742"></script>
+    <link href="/AWS_Intern-Report/mermaid/mermaid.css?1776218979" rel="stylesheet" />
+    <script src="/AWS_Intern-Report/mermaid/mermaid.js?1776218979"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

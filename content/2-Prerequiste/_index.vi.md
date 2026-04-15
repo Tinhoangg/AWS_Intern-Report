@@ -159,24 +159,23 @@ pre : " <b> 2. </b> "
 **Chi phí AWS hàng tháng**
 *Kiến trúc Serverless - Chi phí tối ưu*
 
-| Dịch vụ | Cấu hình | Chi phí/tháng |
+| Dịch vụ | Cấu hình | Chi phí/Tháng |
 | :--- | :--- | :--- |
-| **AWS Lambda** | 15K invocations, 512MB, 4000ms avg | $0 *(Free tier)* |
-↳ Free tier: 1M requests + 400K GB-seconds/month
-| **API Gateway** | 15K REST API requests | $0 |
-| **DynamoDB** | On-demand, 5GB storage, 1M reads, 0.5M write | $0.5 |
-| **S3 Vector Bucket** | 2GB data, PUT/GET | $0.60 |
-| **Bedrock** | Model: Claude Haiku 3, Input Token: 6GB, Output Token: 4GB | $6.5 |
-| **CloudFront** | 10GB transfer, 200K requests | $1.00 |
-| **Route 53** | 1 hosted zone | $0.90 |
-| **CloudWatch**| Log và Auth cơ bản | $0 *(Free tier)* |
-| **Secrets Manager**| Quản lý key proxy | $0.4 |
-| **Elastic Beanstalk (EC2)** | t3.micro | $11.68 |
-| **Cognito** | 1000 MAU | $0 |
+| **AWS Lambda** | 15K lượt gọi, 512MB, trung bình 4000ms | $0 *(Miễn phí - Free tier)* |
+↳ Free tier: 1 triệu requests + 400K GB-seconds/tháng
+| **Amazon API Gateway** | 15K request REST API | $0 |
+| **Amazon DynamoDB** | On-demand, 5GB lưu trữ, 1M reads, 0.5M write | $0.5 |
+| **Amazon S3 Vectors** | 2GB dữ liệu, thao tác PUT/GET | $0.60 |
+| **Amazon Bedrock** | Model: Claude Haiku 3, Input Token: 6GB, Output Token: 4GB | $6.5 |
+| **Amazon CloudFront** | 100GB truyền tải, 1M requests | $0 |
+| **Amazon Route 53** | 1 hosted zone | $0.90 |
+| **Amazon CloudWatch** | Log cơ bản và xác thực | $0 *(Miễn phí - Free tier)* |
+| **AWS Secrets Manager** | Quản lý key proxy | $0.4 |
+| **AWS Elastic Beanstalk (EC2)** | t3.micro | $11.68 |
+| **Amazon Cognito** | 1000 MAU | $0 *(Miễn phí - Free tier)* |
 ↳ Free tier: < 50K MAU
-| **RDS my SQL** | Buffer | $5.85 |
-| **WAF** | Buffer | $0 |
-| | **TỔNG AWS/THÁNG** | **~$27.43** |
+| **Amazon RDS for MySQL** | db.t4g.micro, gp3 | $21.01 |
+| | **TỔNG CHI PHÍ AWS/THÁNG** | **~$41.59** |
 
 
 ## 7. Đánh giá rủi ro & Giảm thiểu
